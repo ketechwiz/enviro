@@ -204,7 +204,7 @@ def call_grok_api(messages, stream=False):
     }
     
     data = {
-        "model": "meta-llama/llama-4-maverick",
+        "model": "meta-llama/llama-3.3-70b-instruct:free",
         "messages": messages,
         "temperature": 0.1,
         "max_tokens": 8192,
